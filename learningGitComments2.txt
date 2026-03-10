@@ -4,3 +4,4 @@ git status => will show the filename having changes
 git add filename => It will update which file are need to be committed
 git commit -m "message" => it will make ready to add files from ourlocal to the git branch (more like a waiting area)
 git push origin branch name => it will push the changes to the specific git branch we mentioned
+git pull => will fetch latest changes from git branch and make our working directory upto date
