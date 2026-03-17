@@ -1,7 +1,24 @@
 so far I have learned these commands
 
+cd => change directory (chaning path of the folder)
+cd.. => it points to the root directory of the project
+git init => will create a new git repository
+git branch => it will give us the current branch name we are in
+git branch -m "branch name" => it will change the name of the branch
 git status => will show the filename having changes
 git add filename => It will update which file are need to be committed
+git add . => It will update all files that need to be committed in particular project folder
 git commit -m "message" => it will make ready to add files from ourlocal to the git branch (more like a waiting area)
 git push origin branch name => it will push the changes to the specific git branch we mentioned
-git pull => will fetch latest changes from git branch and make our working directory upto date
+git fetch origin => will fetch the changes in the repository act like a refresh in repo
+git pull => will fetch latest changes from source branch and merge changes to our working directory to keep upto date
+git remote add origin <URL> => it's like providing name to the URL we are calling here so that in future we don't have to use URL instead we can just say "Origin"
+
+********************* About GIT Branches ************************
+
+git branch -a => will give all the branch created from master branch
+git checkout branchName => wil switch to the respective branch we are pointing to
+git checkout -b branchName => will create a new feature branch
+git diff branchName => it will show the difference b/w current branch and the branch we provide to compare
+git merge branchname => it will merge the current with branch name we mentioned in the commands
+
